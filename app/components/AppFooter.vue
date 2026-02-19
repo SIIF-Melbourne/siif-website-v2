@@ -6,7 +6,7 @@
         <p class="text footer-left__text"><strong>Social Impact Investment Fund</strong></p>
         <p class="text footer-left__text">Mailbox 23, Level 4, Building 168, University of Melbourne VIC 3010</p>
         <p class="text footer-left__text">siif.melbourne@gmail.com</p>
-        <p class="text footer-left__text">2025 Social Impact Investment Fund</p>
+        <p class="text footer-left__text">2026 Social Impact Investment Fund</p>
       </div>
     </div>
     <div class="footer-right">
