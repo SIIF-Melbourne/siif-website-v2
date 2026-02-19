@@ -62,7 +62,7 @@ const section = computed(() => {
 @media (min-width: 992px) {
   .main {
     flex-direction: row;
-    padding: 6rem max(2rem, 5%);
+    padding: 6rem max(2rem, 10%);
     gap: 6rem;
   }
 

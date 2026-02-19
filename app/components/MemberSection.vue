@@ -41,6 +41,7 @@ const { data } = await useAsyncData(
 <style scoped>
 .committee-row {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  flex-wrap: wrap;
 }
 </style>
