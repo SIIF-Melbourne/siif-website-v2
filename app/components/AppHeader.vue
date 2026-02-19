@@ -4,6 +4,7 @@
       <img class="site-nav__logo" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/photos/SiiF-Logo-Backgroundless-Navy-2.png" alt="SiiF Logo">
     </NuxtLink>
     <ul class="site-nav__links">
+      <li class="text"><NuxtLink href="/about-us">about us</NuxtLink></li>
       <li class="text"><NuxtLink href="/committee">committee</NuxtLink></li>
       <li class="text"><NuxtLink href="/publications">publications</NuxtLink></li>
       <li class="text"><NuxtLink href="/events">events</NuxtLink></li>

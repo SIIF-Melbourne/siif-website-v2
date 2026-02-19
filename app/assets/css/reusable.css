@@ -19,6 +19,11 @@
   margin-bottom: 1.2rem;
 }
 
+.text--h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+}
+
 .text--p {
   font-size: 1.2rem;
   line-height: 1.8rem;
@@ -69,6 +74,11 @@
   background-color: var(--off-white);
   color: var(--off-black);
   border-color: var(--off-white);
+}
+
+.link {
+  text-decoration: underline;
+  color: var(--dark-blue);
 }
 
 @media (max-width: 992px) {
