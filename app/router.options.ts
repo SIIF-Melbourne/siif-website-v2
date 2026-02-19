@@ -1,15 +1,7 @@
 import type { RouterConfig } from '@nuxt/schema'
 
 export default <RouterConfig>{
-  scrollBehavior: async (to, from, savedPosition) => {
-    if (savedPosition) {
-      return {
-        left: savedPosition.left || 0,
-        top: 0, 
-        behavior: 'smooth'
-      }
-    }
-
+  scrollBehavior: async (to, from) => {
     const keepScrollPrefixes = ['/committee/', '/contact/']
 
     const shouldKeepScroll = keepScrollPrefixes.some(
@@ -20,6 +12,6 @@ export default <RouterConfig>{
       return false
     }
 
-    return { left: 0, top: 0, behavior: 'smooth' }
+    return 
   }
 }
