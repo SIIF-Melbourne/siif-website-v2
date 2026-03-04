@@ -56,12 +56,14 @@
 }
 
 .footer-left {
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 .footer-left__image {
+  width: 6rem;
   height: 6rem;
 }
 
