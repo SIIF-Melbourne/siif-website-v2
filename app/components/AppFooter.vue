@@ -1,7 +1,11 @@
 <template>
   <footer class="site-footer">
     <div class="footer-left">
-      <img class="footer-left__image" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/photos/UniMelb-Logo.svg" alt="UniMelb-Logo">
+      <NuxtImg
+        class="footer-left__image"
+        src="/v1772598394/unimelb_r0vwzr.png"
+        alt="UniMelb-Logo"
+      />
       <div>
         <p class="text footer-left__text"><strong>Social Impact Investment Fund</strong></p>
         <p class="text footer-left__text">Mailbox 23, Level 4, Building 168, University of Melbourne VIC 3010</p>
@@ -11,7 +15,10 @@
     </div>
     <div class="footer-right">
       <a href="https://umsu.unimelb.edu.au/buddy-up/clubs/clubs-listing/join/7509/">
-        <img class="footer-right__icon" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/photos/UMSU-Logo.svg" aria-hidden="true">
+        <NuxtImg
+          class="footer-right__icon"
+          src="/v1772598694/umsu_powrbi.png"
+        />
       </a>
       <a href="https://instagram.com/siifund_unimelb" aria-hidden="true">
         <i class="footer-right__icon fab fa-instagram"></i>

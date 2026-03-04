@@ -11,6 +11,7 @@ export default defineNuxtConfig({
       redirect: '/publications/articles'
     }
   },
+
   app: {
     head: {
       link: [
@@ -21,12 +22,25 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   telemetry: false,
+
   css: [
     '~/assets/css/normalize.css',
     '~/assets/css/reusable.css',
     '~/assets/css/global.css'
   ],
+
+  modules: ['@nuxt/image'],
+
+  image: {
+    quality: 80,
+    format: ['avif', 'webp'],
+    provider: 'cloudinary',
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/dugjyatvx/image/upload'
+    } 
+  }
 })

@@ -1,7 +1,11 @@
 <template>
   <header class="site-nav">
     <NuxtLink href="/">
-      <img class="site-nav__logo" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/photos/SiiF-Logo-Backgroundless-Navy-2.png" alt="SiiF Logo">
+      <NuxtImg
+        class="site-nav__logo"
+        src="/v1772546286/SIIF_Logo_PNG_High_Quality_Dark_Blue_zogssr.png"
+        alt="SIIF Logo"
+      />
     </NuxtLink>
     <ul class="site-nav__links">
       <li class="text"><NuxtLink href="/about-us">about us</NuxtLink></li>
@@ -27,7 +31,7 @@
 }
 
 .site-nav__logo {
-  height: 4rem
+  height: 2.5rem
 }
 
 .site-nav__links {

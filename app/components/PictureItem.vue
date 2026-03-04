@@ -1,7 +1,10 @@
 <template>
   <a :href="url">
     <div class="card">
-      <img src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/photos/publications/StockPhoto2.jpg" class="card__image"></img>
+      <NuxtImg
+        class="card__image"
+        src="/v1772598912/building_r7qasl.jpg"
+      />
       <div class="card__body">
         <h3 class="text text--h3">{{ title }}</h3>
         <p class="text text--p">{{ description }}</p>

@@ -26,7 +26,10 @@
         <NuxtLink class="button text--sans" to="/contact">CONTACT US</NuxtLink>
       </div>
       <div class="about-us__right">
-        <img class="about-us__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/about-us.jpg">
+        <NuxtImg
+          class="about-us__img"
+          src="/v1772546946/commitee-pic_ezp0iu.jpg"
+        />
       </div>
     </section>
     <section class="sponsors">
@@ -35,41 +38,77 @@
         <h2 class="text text--serif text--h2 text--inline-block">our sponsors</h2>
       </div>
       <div class="sponsors__container">
-        <NuxtLink class="sponsors__icon">
-          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/bybit.png">
+        <NuxtLink class="sponsors__icon" href="https://www.rivercapital.com.au/" target="_blank">
+          <NuxtImg
+            class="sponsors__icon-img"
+            src="v1772595720/rc_ddibvb.png"
+          />
         </NuxtLink>
-        <NuxtLink class="sponsors__icon">
-          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/ey.png">
+        <NuxtLink class="sponsors__icon" href="https://sig.com/" target="_blank">
+          <NuxtImg
+            class="sponsors__icon-img"
+            src="/v1772593791/susquehanna_cpwxsl.png"
+          />
         </NuxtLink>
-        <NuxtLink class="sponsors__icon">
-          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/jadig.png">
+        <NuxtLink class="sponsors__icon" href="https://inaam.me/" target="_blank">
+          <NuxtImg
+            class="sponsors__icon-img"
+            src="/v1772596172/inaam_fj10q4.png"
+          />
         </NuxtLink>
-        <NuxtLink class="sponsors__icon">
-          <img class="sponsors__icon-img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/rivercapital.png">
+        <NuxtLink class="sponsors__icon" href="https://www.you.co/" target="_blank">
+          <NuxtImg
+            class="sponsors__icon-img"
+            src="/v1772596535/youtrip_tzdjz3.png"
+          />
+        </NuxtLink>
+        <NuxtLink class="sponsors__icon" href="https://www.futurefund.gov.au/" target="_blank">
+          <NuxtImg
+            class="sponsors__icon-img"
+            src="/v1772596755/ff_gxvkkt.png"
+          />
         </NuxtLink>
       </div>
     </section>
     <!-- I'm really not a fan of this section's design! -->
-    <section class="charities">
+    <!--<section class="charities">
       <div class="charities__banner">
         <h2 class="text text--serif text--h2 text--invert">our charities</h2>
         <NuxtLink class="button button--invert text--sans" to="/contact">EXPLORE</NuxtLink>
       </div>
-    </section>
+    </section>-->
     <section class="community">
       <h2 class="text text--serif text--h2">why not join us?</h2>
       <p class="text text--p">We want <em>you</em> to be a part of SIIF.<br>Follow us on our socials or contact us to find out how to get involved!</p>
       <div class="community__container">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus1.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus2.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus3.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus4.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus5.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus6.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus7.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus8.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus9.jpg">
-        <img class="community__img" src="https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/joinus10.jpg">
+        <NuxtImg
+          class="community__img" 
+          src="/v1772597859/joinus1_uaylhm.jpg"
+        />
+        <NuxtImg
+          class="community__img" 
+          src="/v1772597859/joinus2_tuidyb.jpg"
+        />
+        <NuxtImg
+          class="community__img" 
+          src="/v1772597861/joinus3_mholae.heic"
+        />
+        <NuxtImg
+          class="community__img" 
+          src="/v1772597859/joinus4_l16ikg.heic"
+        />
+        <NuxtImg
+          class="community__img" 
+          src="/v1772597861/joinus5_fhvw6a.heic"
+        />
+        <NuxtImg
+          class="community__img" 
+          src="/v1772597869/joinus6_nduawb.jpg"
+        />
+        <NuxtImg
+          class="community__img" 
+          src="/v1772597862/joinus7_hzkxj9.jpg"
+        />
       </div>
     </section>
   </main>

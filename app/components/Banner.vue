@@ -19,10 +19,11 @@ const props = defineProps({
 .hero-banner {
   width: 100%;
   height: 32rem;
-  background-image: url(https://lshtgdpdskhqqxdcwpjo.supabase.co/storage/v1/object/public/assets/placeholders/committee-hero.jpg);
+  background-image: url(https://res.cloudinary.com/dugjyatvx/image/upload/v1772458824/IMG_8254_vo2ius.jpg);
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-position: 50% 30%;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
