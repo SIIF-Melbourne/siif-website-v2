@@ -32,7 +32,7 @@ const committeeImages = [
       <div class="about-us__left">
         <div class="about-us__text">
           <h2 class="text text--serif text--h2">who we are</h2>
-          <p class="text text--p">The Social Impact Investment Fund is the first and only student led investment fund in Victoria managing real capital. We provide students the opportunity to pitch investment ideas to a team of committee and sponsor representatives, and employ those ideas into a tangible portfolio.</p>
+          <p class="text text--p">The Social Impact Investment Fund is the first and only student led investment fund in Victoria managing real capital. We provide students the opportunity to pitch investment ideas to a team of committee and partner representatives, and employ those ideas into a tangible portfolio.</p>
           <p class="text text--p"><em>All</em> proceeds go towards our nominated charities.</p>
         </div>
         <NuxtLink class="button text--sans" to="/contact">CONTACT US</NuxtLink>
@@ -41,42 +41,43 @@ const committeeImages = [
         <NuxtImg
           class="about-us__img"
           src="/v1772546946/commitee-pic_ezp0iu.jpg"
+          width="700"
         />
       </div>
     </section>
-    <section class="sponsors">
-      <div class="sponsors__title">
+    <section class="partners">
+      <div class="partners__title">
         <p class="text text--p text--inline-block">our amazing work wouldn't be possible without...</p>
-        <h2 class="text text--serif text--h2 text--inline-block">our sponsors</h2>
+        <h2 class="text text--serif text--h2 text--inline-block">our partners</h2>
       </div>
-      <div class="sponsors__container">
-        <NuxtLink class="sponsors__icon" href="https://www.rivercapital.com.au/" target="_blank">
+      <div class="partners__container">
+        <NuxtLink class="partners__icon" href="https://www.rivercapital.com.au/" target="_blank">
           <NuxtImg
-            class="sponsors__icon-img"
+            class="partners__icon-img"
             src="v1772595720/rc_ddibvb.png"
           />
         </NuxtLink>
-        <NuxtLink class="sponsors__icon" href="https://sig.com/" target="_blank">
+        <NuxtLink class="partners__icon" href="https://sig.com/" target="_blank">
           <NuxtImg
-            class="sponsors__icon-img"
+            class="partners__icon-img"
             src="/v1772593791/susquehanna_cpwxsl.png"
           />
         </NuxtLink>
-        <NuxtLink class="sponsors__icon" href="https://inaam.me/" target="_blank">
+        <NuxtLink class="partners__icon" href="https://inaam.me/" target="_blank">
           <NuxtImg
-            class="sponsors__icon-img"
+            class="partners__icon-img"
             src="/v1772596172/inaam_fj10q4.png"
           />
         </NuxtLink>
-        <NuxtLink class="sponsors__icon" href="https://www.you.co/" target="_blank">
+        <NuxtLink class="partners__icon" href="https://www.you.co/" target="_blank">
           <NuxtImg
-            class="sponsors__icon-img"
+            class="partners__icon-img"
             src="/v1772596535/youtrip_tzdjz3.png"
           />
         </NuxtLink>
-        <NuxtLink class="sponsors__icon" href="https://www.futurefund.gov.au/" target="_blank">
+        <NuxtLink class="partners__icon" href="https://www.futurefund.gov.au/" target="_blank">
           <NuxtImg
-            class="sponsors__icon-img"
+            class="partners__icon-img"
             src="/v1772596755/ff_gxvkkt.png"
           />
         </NuxtLink>
@@ -192,28 +193,28 @@ const committeeImages = [
   text-align: center;
 }
 
-.sponsors {
+.partners {
   text-align: center;
   padding: 0 2rem;
   /* padding: 8rem max(4rem, 5%) 0; */
 }
 
-.sponsors__container {
+.partners__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 0.5rem
 }
 
-.sponsors__icon {
+.partners__icon {
   flex-grow: 1;
 }
 
-.sponsors__icon-img {
+.partners__icon-img {
   height: 6rem;
 }
 
-.sponsors__title {
+.partners__title {
   display: flex;
   flex-direction: column;
 }
@@ -252,27 +253,27 @@ const committeeImages = [
     width: calc(50% - 1rem);
   }
   
-  .sponsors__title {
+  .partners__title {
     flex-direction: row;
     gap: 1rem;
     align-items: baseline;
     justify-content: center;
   }
 
-  .sponsors__container {
+  .partners__container {
     justify-content: center;
     gap: 0.5rem 4rem;
   }
 
-  .sponsors__icon {
+  .partners__icon {
     flex-grow: 0
   }
 
-  .sponsors__icon-img {
+  .partners__icon-img {
     height: 8rem;
   }
 
-  .sponsors__container {
+  .partners__container {
     gap: 2rem 4rem;
   }
 }
