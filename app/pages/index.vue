@@ -14,7 +14,7 @@ const committeeImages = [
   <Banner title="social impact that's different" />
   <ul class="stats-bar">
     <li class="stat">
-      <CountUp class="stat__number text--serif" :start=1000 :end=1400 prefix="$" suffix="+" />
+      <CountUp class="stat__number text--serif" :start=1000 :end=1400 prefix="$" suffix="+" :delay="-1000" />
       <p class="stat__title text--sans">donated</p>
     </li>
     <li class="stat">
@@ -22,7 +22,7 @@ const committeeImages = [
       <p class="stat__title text--sans">capital under management</p>
     </li>
     <li class="stat">
-      <CountUp class="stat__number text--serif" :start=100 :end=500 suffix="+" />
+      <CountUp class="stat__number text--serif" :start=100 :end=500 suffix="+" :delay="1000" />
       <p class="stat__title text--sans">members</p>
     </li>
   </ul>

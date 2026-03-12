@@ -20,6 +20,10 @@ const props = defineProps({
   duration: {
     type: Number,
     default: 4220
+  },
+  delay: {
+    type: Number,
+    default: 0
   }
 })
 
@@ -34,7 +38,7 @@ function easeOut(t) {
 }
 
 onMounted(() => {
-  const duration = props.duration + Math.random() * 4000 - 2000
+  const duration = props.duration + props.delay
   let zero;
   function step(timestamp) {
     // progress is a 0-1 value, based on how far along the animation is
