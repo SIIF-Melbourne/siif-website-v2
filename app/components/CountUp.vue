@@ -34,14 +34,13 @@ function easeOut(t) {
 }
 
 onMounted(() => {
+  const duration = props.duration + Math.random() * 4000 - 2000
   let zero;
   function step(timestamp) {
-    numberRef.value = 
-      Number(props.start) 
-      + Math.floor(
-        (props.end - props.start) * easeOut((timestamp - zero) / props.duration)
-      )
-    if ((timestamp - zero) / props.duration < 1) {
+    // progress is a 0-1 value, based on how far along the animation is
+    const progress = (timestamp - zero) / duration
+    numberRef.value = Number(props.start) + Math.floor((props.end - props.start) * easeOut(progress))
+    if (progress < 1) {
       requestAnimationFrame(step)
     }
   }
